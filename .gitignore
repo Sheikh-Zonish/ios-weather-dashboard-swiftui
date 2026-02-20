@@ -1,0 +1,12 @@
+# Ignore API keys
+WeatherDashboardTemplate/Secrets.swift
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+
+# macOS
+.DS_Store
