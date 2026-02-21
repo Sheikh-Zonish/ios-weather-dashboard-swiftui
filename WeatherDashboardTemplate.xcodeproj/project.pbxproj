@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24E68EFA2F46F182008A0703 /* Secrets.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E68EF92F46F17F008A0703 /* Secrets.swift .swift */; };
+		24E68EFA2F46F182008A0703 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E68EF92F46F17F008A0703 /* Secrets.swift */; };
 		6862893D2EA3F91500FE44FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686289392EA3F91500FE44FC /* Assets.xcassets */; };
 		6862893F2EA3F91500FE44FC /* WeatherDashboardTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862893B2EA3F91500FE44FC /* WeatherDashboardTemplateApp.swift */; };
 		68628A3B2EA4459700FE44FC /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68628A342EA4459700FE44FC /* CurrentWeatherView.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24E68EF92F46F17F008A0703 /* Secrets.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Secrets.swift .swift"; sourceTree = "<group>"; };
+		24E68EF92F46F17F008A0703 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		6862892B2EA3F8FD00FE44FC /* WeatherDashboardTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherDashboardTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686289392EA3F91500FE44FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6862893B2EA3F91500FE44FC /* WeatherDashboardTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDashboardTemplateApp.swift; sourceTree = "<group>"; };
@@ -77,13 +77,13 @@
 		6862893C2EA3F91500FE44FC /* WeatherDashboardTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				24E68EF92F46F17F008A0703 /* Secrets.swift .swift */,
 				6862899D2EA4388500FE44FC /* Utility */,
 				686289402EA3F92A00FE44FC /* Model */,
 				686289412EA3F93700FE44FC /* ViewModel */,
 				68628A392EA4459700FE44FC /* View */,
 				686289392EA3F91500FE44FC /* Assets.xcassets */,
 				6862893B2EA3F91500FE44FC /* WeatherDashboardTemplateApp.swift */,
+				24E68EF92F46F17F008A0703 /* Secrets.swift */,
 			);
 			path = WeatherDashboardTemplate;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 				68628A3B2EA4459700FE44FC /* CurrentWeatherView.swift in Sources */,
 				68628A3C2EA4459700FE44FC /* ForecastView.swift in Sources */,
 				68628A3F2EA4459700FE44FC /* VisitedPlacesView.swift in Sources */,
-				24E68EFA2F46F182008A0703 /* Secrets.swift .swift in Sources */,
+				24E68EFA2F46F182008A0703 /* Secrets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
